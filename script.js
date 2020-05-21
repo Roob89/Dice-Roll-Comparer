@@ -51,7 +51,7 @@ function calculate_rolls() {
         
         current_average = current_total / quantity;
 
-        results = results + `<br>Rolling die [${i+1}/${dice_array.length}] [Total = ${current_total}] [Average = ${current_average}]`
+        results = results + `<br>Rolling die [${i+1}/${dice_array.length}] [D${current_value}+${current_modifier}] [Total = ${current_total}] [Average = ${current_average}]`
 
         
     }
