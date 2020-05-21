@@ -69,7 +69,7 @@ function add_dice(){
     var dice_template = `
     <div class="flex__item">
         <div class="dice" data-index="${dice_index}">
-            <h3>Dice #${dice_index}</h3>
+            <h2>Dice #${dice_index}</h2>
             <p>
                 <label for="">Dice</label>
                 <select class="value">
