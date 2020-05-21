@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 1rem 0;
+}
+
+pre {
+
+    background: whitesmoke;
+    padding: 1em;
+    border: 1px solid #111;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: bold;
+}
+
+input,
+select,
+option {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e6e6e6;
+    font-family: inherit;
+}
+
+.button {
+    background: #111;
+    color: white;
+    font-family: inherit;
+    padding: 0.5em 3em;
+    border: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.add-dice-button {
+    border: 2px dashed #111;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    padding: 30% 0;
+}
+
+.add-dice-button__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.container {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+    margin: 1rem -0.5rem;
+}
+
+.flex__item {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.flex__item--last {
+    order: 999;
+}
+
+.dice {
+    border: 2px solid #111;
+    padding: 0.5em 1em;
+    background: whitesmoke;
+}
+
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .flex__item {
+        width: 33.3333%;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex__item {
+        width: 25%;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 1200px) {}

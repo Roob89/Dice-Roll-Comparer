@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">     <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <h1>Dice Roll Average Calculator</h1>
+
+        <p>
+            <label for="">Number of rolls</label>
+            <input id="quantity" type="number" value="100">
+        </p>
+
+        <div id="dice-container" class="flex">
+
+            <!-- Dice added by javascript -->
+
+            <div class="flex__item flex__item--last">
+                <div id="add-dice-button" class="add-dice-button">
+                    <div class="add-dice-button__text">
+                        Add dice
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <p>
+            <button id="roll_button" class="button">Roll</button>
+        </p>
+
+        <p>
+            <label>Output log</label>
+            <pre id="output-log">Calculations will appear here.</pre>
+        </p>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
