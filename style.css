@@ -8,6 +8,7 @@ html,
 body {
     font-family: 'Titillium Web', sans-serif;
     color: #111;
+    background: whitesmoke;
 }
 
 h1,
@@ -21,9 +22,10 @@ p {
 
 pre {
 
-    background: whitesmoke;
+    background: white;
     padding: 1em;
-    border: 1px solid #111;
+    border: 2px solid #111;
+    box-shadow: 0.25em 0.25em black;
 }
 
 label {
@@ -38,7 +40,7 @@ select,
 option {
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #000;
     font-family: inherit;
 }
 
@@ -99,7 +101,8 @@ option {
 .dice {
     border: 2px solid #111;
     padding: 0.5em 1em;
-    background: whitesmoke;
+    background: white;
+    box-shadow: 0.25em 0.25em black;
 }
 
 
