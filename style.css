@@ -26,6 +26,7 @@ pre {
     padding: 1em;
     border: 2px solid #111;
     box-shadow: 0.25em 0.25em black;
+    overflow: auto;
 }
 
 label {
@@ -133,7 +134,7 @@ option {
     .flex__item {
         width: 33.3333%;
     }
-    
+
 }
 
 @media (min-width: 1200px) {
