@@ -1,3 +1,7 @@
+/**************************************************************
+# Tags
+**************************************************************/
+
 * {
     margin: 0;
     padding: 0;
@@ -46,6 +50,11 @@ option {
     font-size: 1em;
 }
 
+
+/**************************************************************
+# Common
+**************************************************************/
+
 .button {
     background: #3A538C;
     color: white;
@@ -63,27 +72,14 @@ option {
     box-shadow: 0.25em 0.25em black;
 }
 
-.add-dice-button {
-    border: 2px dashed #111;
-    height: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    padding: 30% 0;
-}
 
-.add-dice-button__text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-}
+
+/**************************************************************
+# Layout
+**************************************************************/
 
 .container {
-    max-width: 100rem;
+    max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 5%;
@@ -105,6 +101,12 @@ option {
     order: 999;
 }
 
+
+/**************************************************************
+# Dice card
+**************************************************************/
+
+
 .dice {
     border: 2px solid #111;
     padding: 0.5em 1em;
@@ -113,12 +115,37 @@ option {
     color: white;
 }
 
+.add-dice-button {
+    border: 2px dashed #111;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    padding: 30% 0;
+}
 
+.add-dice-button__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+
+
+/**************************************************************
+# Responsive
+**************************************************************/
 
 @media (min-width: 576px) {
+
     .flex__item {
         width: 50%;
     }
+
 }
 
 @media (min-width: 768px) {
@@ -127,6 +154,7 @@ option {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
 }
 
 @media (min-width: 992px) {
