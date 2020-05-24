@@ -85,8 +85,8 @@ option {
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .flex {
@@ -96,7 +96,7 @@ option {
 }
 
 .flex__item {
-    width: 50%;
+    width: 100%;
     padding: 0.5rem;
 }
 
@@ -114,20 +114,32 @@ option {
 
 
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .flex__item {
+        width: 50%;
+    }
+}
 
 @media (min-width: 768px) {
-    .flex__item {
-        width: 33.3333%;
-        padding: 0.5rem;
+
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
 @media (min-width: 992px) {
+
     .flex__item {
-        width: 25%;
-        padding: 0.5rem;
+        width: 33.3333%;
     }
+    
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    .flex__item {
+        width: 25%;
+    }
+
+}
